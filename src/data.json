@@ -15,7 +15,7 @@
                 "link": "http://mulitviewer.herokuapp.com",
                 "image": "https://via.placeholder.com/200",
                 "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
-                "tags":["Express","MongoDB","Passport"]
+                "tags":["Express","MongoDB","Authentication"]
             },
             {
                 "title":"Storage CO Site",
@@ -70,14 +70,15 @@
         {
             "name" : "Chris Sampson",
             "title": "A Front-End Developer",
-            "bio": "Lorem ipsum odor amet, consectetuer adipiscing elit. Pharetra lectus sapien praesent id senectus ultricies velit finibus. Pretium ligula at ullamcorper feugiat accumsan lacinia metus. Duis cursus a odio luctus molestie ultrices venenatis lectus. Porttitor sociosqu diam ad nascetur mollis nisi. Afaucibus mauris pharetra arcu dignissim lobortis. Massa donec litora; mollis himenaeos dolor vestibulum turpis. Platea sed finibus sem, purus fames per. Sem ornare facilisis tempor arcu donec.",
+            "tagline": "Design. Develop. Deploy",
+            "bio": "Here's a little about me, I am a web developer currently living in New York with a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all.",
             "resume" : ""
         }
     ],
     "Skills" : [
         "HTML5",
         "CSS3",
-        "Sass",
+        "SASS",
         "JavaScript",
         "React",
         "Axios",
@@ -88,7 +89,10 @@
         "SQL",
         "Bootstrap 5",
         "Responsive Design",
-        "Hosting"
+        "Hosting",
+        "EJS",
+        "PUG",
+        "NPM"
     ]
     
 }

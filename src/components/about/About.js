@@ -12,11 +12,14 @@ function About (props) {
                 <h3 className="About-header2">
                     {props.data[0].title}
                 </h3>
+                <p>
+                    {props.data[0].tagline}
+                </p>
                 <p className="About-text">
                     {props.data[0].bio}
                 </p>
                 <div className="About-footer">
-                    <a href={props.data[0].resume} className="button">resume</a>
+                    <a href={props.data[0].resume} className="button-link">resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
                     <a href="#" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
                 </div>

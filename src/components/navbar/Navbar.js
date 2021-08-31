@@ -6,7 +6,7 @@ import './Navbar.css'
 function Navbar () {
     
     return(
-        <nav className="Navbar">
+        <nav className="Navbar" id="top">
             <div className="Navbar-container">
                 <a href="#" className="highlight link" id="top-initial">C.S</a>
                 <div className="Navbar-link-container">

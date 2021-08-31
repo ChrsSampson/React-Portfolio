@@ -67,6 +67,44 @@
   border:1px solid var(--princeton-orange);
   cursor: pointer;
 }
+
+.button-link {
+  min-width: 130px;
+  height: 30px;
+  color: var(--princeton-orange);
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: var(--mint-cream);
+  overflow: hidden;
+  border: 2px solid var(--princeton-orange);
+  color: var(--princeton-orange);
+  text-decoration: none;
+}
+.button-link:hover {
+  color: #fff;
+}
+.button-link:hover:after {
+  width: 100%;
+}
+.button-link:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: var(--princeton-orange);
+}
+
 /* icons */
 .icon{
     

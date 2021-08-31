@@ -2,10 +2,11 @@
     "Projects":{
         "ProProjects" : [
             {
-                "title":"CEMNY of New York Website",
+                "title":"CEMNY.COM",
                 "client":"Chautauqua Energy Managment",
                 "link": "http://cemny.com",
-                "image":"https://via.placeholder.com/200",
+                "gitlink": "https://github.com/ChrsSampson/CEM",
+                "image":"/img/cemny.png",
                 "desc": "A static webpage rendered server side featuring several Javascript Libraries.",
                 "tags":["Express","EJS","BootStrap 5"]  
             },
@@ -13,31 +14,34 @@
                 "title":"PingPlotter MultiViewer",
                 "client":"Digitell Inc.",
                 "link": "http://mulitviewer.herokuapp.com",
-                "image": "https://via.placeholder.com/200",
+                "gitlink": "https://github.com/ChrsSampson/Express-Multiview-Server",
+                "image": "/img/multiviewer.png",
                 "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
                 "tags":["Express","MongoDB","Authentication"]
             },
             {
-                "title":"Storage CO Site",
+                "title":"SelfStorageCompanies.org",
                 "client":"Esteem Managment",
                 "link": "https://selfstoragecompanies.org",
-                "image": "https://via.placeholder.com/200",
+                "gitlink": "",
+                "image": "/img/storage.png",
                 "desc": "A site designed to combine 3 existing and outdated sites into one.",
                 "tags": ["WIX"]
             },
             {
-                "title":"Art Portfolio",
+                "title":"JodyVankeuren.com",
                 "client":"Jody Vankeuren",
                 "link": "https://jodyvankeuren.com/",
-                "image": "https://via.placeholder.com/200",
-                "desc": "A Simple Art Gallery.",
+                "gitlink": "https://github.com/ChrsSampson/Jody-portfolio",
+                "image": "/img/art.png",
+                "desc": "A simple art gallery showcasing a few pieces.",
                 "tags": ["Baguette Box", "Responsive", "Vanilla JS"]
             },
             {
-                "title":"This Portfolio",
-                "client":"Me",
-                "link": "#",
-                "image": "https://via.placeholder.com/200",
+                "title":"StuckNode.com",
+                "link": "http://stucknode.com",
+                "gitlink": "https://github.com/ChrsSampson/React-Portfolio",
+                "image": "/img/node.png",
                 "desc": "Behind the scenes of of this portfolio.",
                 "tags": ["React", "Styled Components", "React Hooks"]
             }
@@ -45,24 +49,43 @@
         "ProtoProjects" : [
             {
                 "title" : "Yelp Camp",
-                "desc" : "A fake social media site based around campgrounds",
-                "link" : "https://www.google.com",
-                "image" : "https://via.placeholder.com/200",
+                "desc" : "A fake social media site based around campgrounds, currently incomplete",
+                "link" : "",
+                "gitlink": "https://github.com/ChrsSampson/YelpCamp",
+                "image" : "/img/yelp.png",
                 "tags": ["Express", "MongoDB", "Authentication"]
             },
             {
                 "title" : "Rock, Paper, Scissors",
                 "desc" : "A simple game made using Javascript objects",
-                "link" : "https://www.google.com",
-                "image" : "https://via.placeholder.com/200",
+                "link" : "https://chrssampson.github.io/RockPaperScissors/",
+                "gitlink": "https://github.com/ChrsSampson/RockPaperScissors",
+                "image" : "/img/game.png",
                 "tags": ["Vanilla JS", "DOM"]
             },
             {
                 "title" : "Flickr Photo Searcher",
                 "desc" : "Single Page React App that Fetches Images From Flickr",
                 "link" : "https://www.google.com",
+                "gitlink": "https://github.com/ChrsSampson/React-Flickr-App",
+                "image" : "/img/flickr.png",
+                "tags": ["React", "Axios", "3rd Party API"]
+            },
+            {
+                "title" : "SQL School Rest API",
+                "desc" : "A REST API capable of CRUD functionalitly on a SQL Database and respond with JSON data",
+                "link" : "",
+                "gitlink": "https://github.com/ChrsSampson/SQL-Rest-API",
                 "image" : "https://via.placeholder.com/200",
-                "tags": ["React", "Axios", "API"]
+                "tags": ["SQLite", "RESTful Routes", "Express"]
+            },
+            {
+                "title" : "SQL Library",
+                "desc" : "An editable library database app made to practice SQL concepts",
+                "link" : "",
+                "gitlink": "https://github.com/ChrsSampson/SQL-Library",
+                "image" : "https://via.placeholder.com/200",
+                "tags": ["SQLite", "RESTful Routes", "PUG"]
             }
         ]
     },
@@ -72,7 +95,7 @@
             "title": "A Front-End Developer",
             "tagline": "Design. Develop. Deploy",
             "bio": "Here's a little about me, I am a web developer currently living in New York with a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all.",
-            "resume" : ""
+            "resume" : "https://docs.google.com/document/d/1qqdbUhhVxsI_y25hN6_QBRIl8S2m6QhsfDNlqHRPO-o/edit?usp=sharing"
         }
     ],
     "Skills" : [

@@ -8,11 +8,12 @@ function Project (props) {
                 <div className="card">
                     <img className="Project-card-img" src={props.data.image} alt={props.title} />
                     <div className="card-body">
-                        <h5 className="Project-card-title">{props.data.title}</h5>
+                        <h4 className="Project-card-title">{props.data.title}</h4>
+                        {props.data.client ? <h5 className="Project-card-client">{props.data.client}</h5> : null}
                         <p className="Project-card-text">{props.data.desc}</p>
                         <div className="Project-card-links">
-                            <a href={props.data.link} className="link"><LinkOut /></a>
-                            <a href={props.data.gitlink} className="link"><GithubFill /></a>
+                            {props.data.link ? <a href={props.data.link} className="link"><LinkOut /></a> : null}
+                            {props.data.gitlink ? <a href={props.data.gitlink} className="link"><GithubFill /></a> : null}
                         </div>
                         <div className="Project-tag-container">
                             {props.tags}

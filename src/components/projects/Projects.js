@@ -1,29 +1,29 @@
 import './Projects.css'
 import Project from '../project/Project'
-import {LinkOut, GithubFill} from 'akar-icons'
+
 
 function Projects (props) {
     
-    const ProProjects = props.data.ProProjects.map((project) => {
+    const ProProjects = props.data.ProProjects.map((project, i) => {
         
         const tags = project.tags.map((tag) => {
             return <span className="Project-tag">{tag}</span>
         })
 
         return (
-            <Project data={project} tags={tags}/>
+            <Project key={i + 30} data={project} tags={tags}/>
         )
             
     });
 
-    const Prototypes = props.data.ProtoProjects.map((prototype) => {
+    const Prototypes = props.data.ProtoProjects.map((prototype, i) => {
 
         const tags = prototype.tags.map((tag) => {
             return <span className="Project-tag">{tag}</span>
         })
 
         return (
-            <Project data={prototype} tags={tags}/>
+            <Project key={i + 20} data={prototype} tags={tags}/>
         )
     });
 
@@ -33,7 +33,8 @@ function Projects (props) {
             <div className="Project-Container">
                 {ProProjects} 
             </div>
-            <h2 className="section-title">Prototypes</h2>
+            <h1 className="section-title">Workbench Prototypes</h1>
+            <sub>(Partially working, incomplete, or experimental projects)</sub>
             <div className="Project-Container">
                 {Prototypes}
             </div>

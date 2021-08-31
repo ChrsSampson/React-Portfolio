@@ -21,7 +21,7 @@ function About (props) {
                 <div className="About-footer">
                     <a href={props.data[0].resume} className="button-link">resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
-                    <a href="#" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
+                    <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
                 </div>
             </article>
         </section>

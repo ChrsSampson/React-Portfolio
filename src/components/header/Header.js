@@ -8,7 +8,6 @@ function Header (props){
     return(
         <article className="Header">
             <About data={props.data}/>
-            <Divider/>
         </article>
     )
 

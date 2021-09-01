@@ -1,6 +1,7 @@
 .Header{
     background: #F0F7F4;
-    height:100vh;
+    height:85vh;
     display: grid;
     place-items: center;
 }
+

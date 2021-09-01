@@ -39,6 +39,7 @@
             },
             {
                 "title":"StuckNode.com",
+                "client": "Chris Sampson",
                 "link": "http://stucknode.com",
                 "gitlink": "https://github.com/ChrsSampson/React-Portfolio",
                 "image": "/img/node.png",

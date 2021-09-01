@@ -13,7 +13,7 @@
             {
                 "title":"PingPlotter MultiViewer",
                 "client":"Digitell Inc.",
-                "link": "http://mulitviewer.herokuapp.com",
+                "link": "http://multiviewer.herokuapp.com/",
                 "gitlink": "https://github.com/ChrsSampson/Express-Multiview-Server",
                 "image": "/img/multiviewer.png",
                 "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
@@ -67,7 +67,7 @@
             {
                 "title" : "Flickr Photo Searcher",
                 "desc" : "Single Page React App that Fetches Images From Flickr",
-                "link" : "https://www.google.com",
+                "link" : "https://musing-hopper-67b6b9.netlify.app/",
                 "gitlink": "https://github.com/ChrsSampson/React-Flickr-App",
                 "image" : "/img/flickr.png",
                 "tags": ["React", "Axios", "3rd Party API"]

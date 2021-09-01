@@ -76,7 +76,7 @@
                 "desc" : "A REST API capable of CRUD functionalitly on a SQL Database and respond with JSON data",
                 "link" : "",
                 "gitlink": "https://github.com/ChrsSampson/SQL-Rest-API",
-                "image" : "https://via.placeholder.com/200",
+                "image" : "/img/folder.png",
                 "tags": ["SQLite", "RESTful Routes", "Express"]
             },
             {
@@ -84,7 +84,7 @@
                 "desc" : "An editable library database app made to practice SQL concepts",
                 "link" : "",
                 "gitlink": "https://github.com/ChrsSampson/SQL-Library",
-                "image" : "https://via.placeholder.com/200",
+                "image" : "/img/book.png",
                 "tags": ["SQLite", "RESTful Routes", "PUG"]
             }
         ]
@@ -95,7 +95,7 @@
             "title": "A Front-End Developer",
             "tagline": "Design. Develop. Deploy",
             "bio": "Here's a little about me, I am a web developer currently living in New York with a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all.",
-            "resume" : "https://docs.google.com/document/d/1qqdbUhhVxsI_y25hN6_QBRIl8S2m6QhsfDNlqHRPO-o/edit?usp=sharing"
+            "resume" : "/Resume Chris Sampons.pdf"
         }
     ],
     "Skills" : [
@@ -113,9 +113,9 @@
         "Bootstrap 5",
         "Responsive Design",
         "Hosting",
-        "EJS",
+        "Node",
         "PUG",
-        "NPM"
+        "MERN Stack"
     ]
     
 }

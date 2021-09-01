@@ -19,7 +19,7 @@ function About (props) {
                     {props.data[0].bio}
                 </p>
                 <div className="About-footer">
-                    <a href={props.data[0].resume} download={props.data[0].resume} className="button-link">resume</a>
+                    <a href={props.data[0].resume} download target="_blank" className="button-link">resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
                     <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
                 </div>

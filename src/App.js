@@ -15,7 +15,7 @@ import Data from './data.json'
 
 function App() {
 
-  const [data, setData] = useState(Data);
+  const [data] = useState(Data);
  
 
   return (

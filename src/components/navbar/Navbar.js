@@ -1,3 +1,4 @@
+import {Link} from 'react-scroll'
 
 // Styles
 import './Navbar.css'
@@ -10,9 +11,9 @@ function Navbar () {
             <div className="Navbar-container">
                 <a href="#" className="highlight link" id="top-initial">C.S</a>
                 <div className="Navbar-link-container">
-                    <a href="#Projects" className="Navbar-link link">Projects</a>
-                    <a href="#Skills" className="Navbar-link link">Skills</a>
-                    <a href="#Contact" className="Navbar-link link">Contact</a>
+                    <Link to="Projects" smooth={true} duration={700} className="Navbar-link link">Projects</Link>
+                    <Link to="Skills" smooth={true} duration={700} className="Navbar-link link">Skills</Link>
+                    <Link to="Contact" smooth={true} duration={700} className="Navbar-link link">Contact</Link>
                 </div>
             </div>
         </nav>

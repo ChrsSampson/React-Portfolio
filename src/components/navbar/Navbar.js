@@ -9,7 +9,7 @@ function Navbar () {
     return(
         <nav className="Navbar" id="top">
             <div className="Navbar-container">
-                <a href="#" className="highlight link" id="top-initial">C.S</a>
+                <Link to="top" smooth={true} className="highlight link" id="top-initial">C.S</Link>
                 <div className="Navbar-link-container">
                     <Link to="Projects" smooth={true} duration={700} className="Navbar-link link">Projects</Link>
                     <Link to="Skills" smooth={true} duration={700} className="Navbar-link link">Skills</Link>

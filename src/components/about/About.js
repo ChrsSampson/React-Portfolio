@@ -19,7 +19,7 @@ function About (props) {
                     {props.data[0].bio}
                 </p>
                 <div className="About-footer">
-                    <a href="/files/Resume.pdf" download="Chris Sampson: Resume" className="button-link">resume</a>
+                    <a href="https://docs.google.com/document/d/1qqdbUhhVxsI_y25hN6_QBRIl8S2m6QhsfDNlqHRPO-o/edit?usp=sharing" className="button-link">resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
                     <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
                 </div>

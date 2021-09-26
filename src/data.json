@@ -64,6 +64,7 @@
                 "image" : "/img/flickr.png",
                 "tags": ["React", "Axios", "3rd Party API"]
             },
+            {
                 "title" : "Yelp Camp",
                 "desc" : "A fake social media site based around campgrounds, currently incomplete",
                 "link" : "",

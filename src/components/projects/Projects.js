@@ -34,7 +34,6 @@ function Projects (props) {
                 {ProProjects} 
             </div>
             <h1 className="section-title">Workbench Prototypes</h1>
-            <sub>(Partially working, incomplete, or experimental projects)</sub>
             <div className="Project-Container">
                 {Prototypes}
             </div>

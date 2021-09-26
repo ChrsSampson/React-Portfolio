@@ -49,14 +49,6 @@
         ],
         "ProtoProjects" : [
             {
-                "title" : "Yelp Camp",
-                "desc" : "A fake social media site based around campgrounds, currently incomplete",
-                "link" : "",
-                "gitlink": "https://github.com/ChrsSampson/YelpCamp",
-                "image" : "/img/yelp.png",
-                "tags": ["Express", "MongoDB", "Authentication"]
-            },
-            {
                 "title" : "Rock, Paper, Scissors",
                 "desc" : "A simple game made using Javascript objects",
                 "link" : "https://chrssampson.github.io/RockPaperScissors/",
@@ -71,6 +63,13 @@
                 "gitlink": "https://github.com/ChrsSampson/React-Flickr-App",
                 "image" : "/img/flickr.png",
                 "tags": ["React", "Axios", "3rd Party API"]
+            },
+                "title" : "Yelp Camp",
+                "desc" : "A fake social media site based around campgrounds, currently incomplete",
+                "link" : "",
+                "gitlink": "https://github.com/ChrsSampson/YelpCamp",
+                "image" : "/img/yelp.png",
+                "tags": ["Express", "MongoDB", "Authentication"]
             },
             {
                 "title" : "SQL School Rest API",
@@ -93,7 +92,7 @@
     "About" : [
         {
             "name" : "Chris Sampson",
-            "title": "A Front-End Developer",
+            "title": "Full Stack Developer",
             "tagline": "Design. Develop. Deploy",
             "bio": "Here's a little about me, I am a web developer currently living in New York with a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all."
             

@@ -33,7 +33,7 @@ function Projects (props) {
             <div className="Project-Container">
                 {ProProjects} 
             </div>
-            <h1 className="section-title">Workbench Prototypes</h1>
+            <h1 className="section-title">Workbench Projects</h1>
             <div className="Project-Container">
                 {Prototypes}
             </div>

@@ -54,7 +54,15 @@
                 "link" : "https://chrssampson.github.io/RockPaperScissors/",
                 "gitlink": "https://github.com/ChrsSampson/RockPaperScissors",
                 "image" : "/img/game.png",
-                "tags": ["Vanilla JS", "DOM"]
+                "tags": ["Vanilla JS", "DOM", "From Mockup"]
+            },
+            {
+                "title" : "Tip Calculator App",
+                "desc" : "A single page app that calulates tips and splits bills across members of the party",
+                "link" : "https://chrssampson.github.io/TipCalculator/",
+                "gitlink": "https://github.com/ChrsSampson/TipCalculator",
+                "image" : "/img/tip.png",
+                "tags": ["Object-Oriented", "SASS", "From Mockup"]
             },
             {
                 "title" : "Flickr Photo Searcher",
@@ -63,6 +71,22 @@
                 "gitlink": "https://github.com/ChrsSampson/React-Flickr-App",
                 "image" : "/img/flickr.png",
                 "tags": ["React", "Axios", "3rd Party API"]
+            },
+            {
+                "title" : "Phrase Hunter",
+                "desc" : "A simple hangman style game structured using classes and objects",
+                "link" : "https://chrssampson.github.io/Phrase-Hunter/",
+                "gitlink": "https://github.com/ChrsSampson/Phrase-Hunter",
+                "image" : "/img/hunter.png",
+                "tags": ["Object-Oriented", "Vanilla JS"]
+            },
+            {
+                "title" : "React Dynamic Button Component",
+                "desc" : "A button component with mutiple styles and states toggle-able using params",
+                "link" : "https://chrssampson.github.io/Button-Component/",
+                "gitlink": "https://github.com/ChrsSampson/Button-Component",
+                "image" : "/img/buttons.png",
+                "tags": ["React", "From Mockup"]
             },
             {
                 "title" : "Yelp Camp",

@@ -5,11 +5,13 @@ import './Navbar.css'
 
 
 function Navbar () {
-    
+
     return(
         <nav className="Navbar" id="top">
             <div className="Navbar-container">
-                <Link to="top" smooth={true} className="highlight link" id="top-initial">C.S</Link>
+                <a href="https://www.hackreactor.com/" className="highlight link" id="top-initial">
+                    <img className="Navbar-img" src="HR.svg" alt="Hack Reactor logo" />
+                </a>
                 <div className="Navbar-link-container">
                     <Link to="Projects" smooth={true} duration={700} className="Navbar-link link">Projects</Link>
                     <Link to="Skills" smooth={true} duration={700} className="Navbar-link link">Skills</Link>

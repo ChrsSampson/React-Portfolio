@@ -44,7 +44,7 @@
                 "gitlink": "https://github.com/ChrsSampson/React-Portfolio",
                 "image": "/img/node.png",
                 "desc": "Behind the scenes of of this portfolio.",
-                "tags": ["React", "Styled Components", "React Hooks"]
+                "tags": ["React"]
             }
         ],
         "ProtoProjects" : [
@@ -53,12 +53,12 @@
                 "desc" : "A recipe app made in about a week as an exersise in MVP",
                 "link" : "",
                 "gitlink": "https://github.com/ChrsSampson/hr-rpp35-mvp",
-                "image" : "/img/buttons.png",
+                "image" : "/img/cook.png",
                 "tags": ["React", "MYSQL", "Express", "Webpack", "APIs"]
             },
             {
                 "title" : "Rock, Paper, Scissors",
-                "desc" : "A simple game made using Javascript objects",
+                "desc" : "A Rock/Paper/Scissors game made using Javascript Classes",
                 "link" : "https://chrssampson.github.io/RockPaperScissors/",
                 "gitlink": "https://github.com/ChrsSampson/RockPaperScissors",
                 "image" : "/img/game.png",

@@ -8,7 +8,7 @@
                 "gitlink": "https://github.com/ChrsSampson/CEM",
                 "image":"/img/cemny.png",
                 "desc": "A static webpage rendered server side featuring several Javascript Libraries.",
-                "tags":["Express","EJS","BootStrap 5"]  
+                "tags":["Express","EJS","BootStrap 5"]
             },
             {
                 "title":"PingPlotter MultiViewer",
@@ -49,6 +49,14 @@
         ],
         "ProtoProjects" : [
             {
+                "title" : "We Can't Cook",
+                "desc" : "A recipe app made in about a week as an exersise in MVP",
+                "link" : "",
+                "gitlink": "https://github.com/ChrsSampson/hr-rpp35-mvp",
+                "image" : "/img/buttons.png",
+                "tags": ["React", "MYSQL", "Express", "Webpack", "APIs"]
+            },
+            {
                 "title" : "Rock, Paper, Scissors",
                 "desc" : "A simple game made using Javascript objects",
                 "link" : "https://chrssampson.github.io/RockPaperScissors/",
@@ -66,7 +74,7 @@
             },
             {
                 "title" : "Flickr Photo Searcher",
-                "desc" : "Single Page React App that Fetches Images From Flickr",
+                "desc" : "A single page app that fetches images From flickr",
                 "link" : "https://musing-hopper-67b6b9.netlify.app/",
                 "gitlink": "https://github.com/ChrsSampson/React-Flickr-App",
                 "image" : "/img/flickr.png",
@@ -87,60 +95,73 @@
                 "gitlink": "https://github.com/ChrsSampson/Button-Component",
                 "image" : "/img/buttons.png",
                 "tags": ["React", "From Mockup"]
-            },
-            {
-                "title" : "Yelp Camp",
-                "desc" : "A fake social media site based around campgrounds, currently incomplete",
-                "link" : "",
-                "gitlink": "https://github.com/ChrsSampson/YelpCamp",
-                "image" : "/img/yelp.png",
-                "tags": ["Express", "MongoDB", "Authentication"]
-            },
-            {
-                "title" : "SQL School Rest API",
-                "desc" : "A REST API capable of CRUD functionalitly on a SQL Database and respond with JSON data",
-                "link" : "",
-                "gitlink": "https://github.com/ChrsSampson/SQL-Rest-API",
-                "image" : "/img/folder.png",
-                "tags": ["SQLite", "RESTful Routes", "Express"]
-            },
-            {
-                "title" : "SQL Library",
-                "desc" : "An editable library database app made to practice SQL concepts",
-                "link" : "",
-                "gitlink": "https://github.com/ChrsSampson/SQL-Library",
-                "image" : "/img/book.png",
-                "tags": ["SQLite", "RESTful Routes", "PUG"]
             }
         ]
     },
-    "About" : [
+    "About" :
         {
             "name" : "Chris Sampson",
             "title": "Full Stack Developer",
             "tagline": "Design. Develop. Deploy",
-            "bio": "Here's a little about me, I am a web developer currently living in New York with a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all."
-            
-        }
-    ],
+            "bio": "Here's a little about me, I am currently in the middle of going through Hackreactor and have a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all."
+        },
     "Skills" : [
-        "HTML5",
-        "CSS3",
-        "SASS",
-        "JavaScript",
-        "React",
-        "Axios",
-        "Fetch API",
-        "Express",
-        "Git",
-        "MongoDB",
-        "SQL",
-        "Bootstrap 5",
-        "Responsive Design",
-        "Hosting",
-        "Node",
-        "PUG",
-        "MERN Stack"
+        {
+            "name": "HTML5",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "name": "CCS3",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        },
+        {
+            "name": "SASS",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        },
+        {
+            "name": "Javascript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        },
+        {
+            "name": "React",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+            "name": "Express",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        },
+        {
+            "name": "Git",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        },
+        {
+            "name": "Mocha",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        },
+        {
+            "name": "MYSQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        },
+        {
+            "name": "Docker",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+            "name": "Node",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+            "name": "Handlebars",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg"
+        },
+        {
+            "name": "Jest",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+        }
     ]
-    
 }
+

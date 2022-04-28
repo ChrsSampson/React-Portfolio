@@ -1,5 +1,5 @@
 import './About.css'
-import {GithubFill, LinkedInV1Fill} from 'akar-icons'
+import {GithubFill, LinkedinBoxFill} from 'akar-icons'
 
 function About (props) {
 
@@ -7,25 +7,25 @@ function About (props) {
         <section className="About">
             <article className="About-container">
                 <h2 className="About-header1">
-                    Hi, I'm <span className="highlight">{props.data[0].name}</span>
+                    Hi, I'm <span className="highlight">{props.data.name}</span>
                 </h2>
                 <h3 className="About-header2">
-                    {props.data[0].title}
+                    {props.data.title}
                 </h3>
                 <p>
-                    {props.data[0].tagline}
+                    {props.data.tagline}
                 </p>
                 <p className="About-text">
-                    {props.data[0].bio}
+                    {props.data.bio}
                 </p>
                 <div className="About-footer">
-                    <a href='/files/Resume.pdf' download className="button-link">resume</a>
+                    <a href='/files/Resume.pdf' download className="button-link">Resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
-                    <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedInV1Fill className="icon"  size={35} /></a>
+                    <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedinBoxFill strokeWidth={2} size={35} /></a>
                 </div>
             </article>
         </section>
-    )   
+    )
 }
 
 export default About;

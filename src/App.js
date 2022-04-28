@@ -16,15 +16,15 @@ import Data from './data.json'
 function App() {
 
   const [data] = useState(Data);
- 
+
 
   return (
     <section className="App fade-in">
 
       <Navbar />
       <Header data={data.About}/>
-      <Projects data={data.Projects} />
       <Skills data={data.Skills}/>
+      <Projects data={data.Projects} />
       <Contact />
     </section>
   );

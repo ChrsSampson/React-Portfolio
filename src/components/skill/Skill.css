@@ -30,8 +30,7 @@
 
 @media  (max-width: 1000px) {
     .Skill{
-        padding:.75em;
-        margin:.75em .25em;
+        padding:1.25em;
         -webkit-box-shadow: 0 10px 10px 7px #c1c0c0;
         -moz-box-shadow: 0 10px 10px 7px #c1c0c0;
         box-shadow: 0 10px 10px 7px #c1c0c0;
@@ -45,7 +44,7 @@
 
 @media (max-width: 600px){
     .Skill{
-        padding:.25em;
+        padding-top: 1em;
         margin:.75em .25em;
         -webkit-box-shadow: 0 10px 10px 7px #c1c0c0;
         -moz-box-shadow: 0 10px 10px 7px #c1c0c0;
@@ -53,6 +52,10 @@
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     }
     .Skill-text{
-        font-size: .8em;
+        font-size: 1em;
+    }
+    .Skill-icon{
+        height:4em;
+        width: 4em;
     }
 }

@@ -16,6 +16,33 @@
 }
 
 
+@media screen and (max-width: 800px){
+
+  .Skills{
+    padding:none;
+
+    .Skills-container{
+      gap: 0;
+      padding:2em;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 450px){
+
+  .Skills{
+    padding:none;
+
+    .Skills-container{
+      gap: 0;
+      padding:0;
+    }
+
+  }
+
+}
 
 
 

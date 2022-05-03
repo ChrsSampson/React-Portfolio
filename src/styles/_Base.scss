@@ -1,0 +1,125 @@
+
+/* ----------Text------------- */
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Hight text */
+.highlight{
+    color: $princeton-orange;
+}
+
+/* Links */
+.link {
+  color: $princeton-orange;
+  padding: 0 0 0.3em 0;
+  position: relative;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $princeton-orange;
+}
+
+.link::before {
+  content: '';
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: $princeton-orange;
+  transition: width 0.2s ease-in;
+}
+
+.link:hover::before,
+.link:focus::before {
+  width: 100%;
+}
+
+/* ---------Components--------- */
+
+/* Buttons */
+.button{
+    display: block;
+    font-weight: bold;
+    color:$princeton-orange;
+    padding:.5em 1.5em;
+    border:1px solid $princeton-orange;
+    cursor: pointer;
+}
+
+.button-lg{
+  display: block;
+  font-weight: bold;
+  color:$princeton-orange;
+  padding:.5em 1.5em;
+  border:1px solid $princeton-orange;
+  cursor: pointer;
+}
+
+.button-link {
+  min-width: 130px;
+  height: 30px;
+  color: $princeton-orange;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: transparent;
+  overflow: hidden;
+  border: 2px solid $princeton-orange;
+  color: $princeton-orange;
+  text-decoration: none;
+}
+.button-link:hover {
+  color: #fff;
+}
+.button-link:hover:after {
+  width: 100%;
+}
+.button-link:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: $princeton-orange;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+ .fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}

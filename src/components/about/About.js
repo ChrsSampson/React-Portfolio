@@ -1,4 +1,4 @@
-import './About.css'
+// import './About.css'
 import {GithubFill, LinkedinBoxFill} from 'akar-icons'
 
 function About (props) {

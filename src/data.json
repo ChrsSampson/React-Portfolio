@@ -103,7 +103,7 @@
             "name" : "Chris Sampson",
             "title": "Full Stack Developer",
             "tagline": "Design. Develop. Deploy",
-            "bio": "Here's a little about me, I am currently in the middle of going through Hackreactor and have a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all."
+            "bio": "Here's a little about me, I am currently in the middle of going through Hackreactor Software Engineering Immersive and I also have a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer as I strive to create a better internet for all."
         },
     "Skills" : [
         {
@@ -111,7 +111,7 @@
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         },
         {
-            "name": "CCS3",
+            "name": "CSS3",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
         },
         {
@@ -161,6 +161,10 @@
         {
             "name": "Jest",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+        },
+        {
+            "name": "Webpack",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
         }
     ]
 }

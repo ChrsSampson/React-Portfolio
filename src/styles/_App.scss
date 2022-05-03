@@ -1,0 +1,13 @@
+.App{
+  text-align: center;
+  transition: 0.5s ease;
+
+
+  @include themed(){
+    background: t(bg);
+    color: t(text);
+  }
+
+}
+
+

@@ -1,13 +1,21 @@
 .Skills{
-    padding:5em 3em;
-    background-color: var(--mint-cream);
-}
+  padding:5em 3em;
+  @include themed() {
+    background: t(bg);
+    color: t(text);
+  }
 
-.Skills-container{
+  .Skills-container{
     margin: 0 auto;
     padding:0 20%;
     display: flex;
     justify-content: space-around;
     gap:.5em;
     flex-wrap: wrap;
+  }
 }
+
+
+
+
+

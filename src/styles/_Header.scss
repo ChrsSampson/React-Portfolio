@@ -1,0 +1,9 @@
+.Header{
+  @include themed(){
+    background: t(bg);
+    color: t(text);
+  }
+  height:85vh;
+  display: grid;
+  place-items: center;
+}

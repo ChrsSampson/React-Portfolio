@@ -1,10 +1,10 @@
 import {Link} from 'react-scroll'
-
+import {Sun, Moon} from 'akar-icons'
 // Styles
-import './Navbar.css'
+// import './Navbar.css'
 
 
-function Navbar () {
+function Navbar (props) {
 
     return(
         <nav className="Navbar" id="top">
@@ -16,7 +16,15 @@ function Navbar () {
                     <Link to="Projects" smooth={true} duration={700} className="Navbar-link link">Projects</Link>
                     <Link to="Skills" smooth={true} duration={700} className="Navbar-link link">Skills</Link>
                     <Link to="Contact" smooth={true} duration={700} className="Navbar-link link">Contact</Link>
+                    <span className="Navbar-link highlight link" onClick={() => props.handleClick()}>
+                        { props.theme === 'dark' ?
+                            <Sun size={24} />
+                            :
+                            <Moon size={24} />
+                        }
+                    </span>
                 </div>
+
             </div>
         </nav>
     )

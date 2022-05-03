@@ -1,0 +1,42 @@
+.Contact {
+  padding:1em;
+  @include themed() {
+    background: t(bg);
+    color: t(text);
+  }
+  display: grid;
+  place-items: center;
+}
+
+.Contact-container{
+  display: grid;
+  place-items: center;
+}
+
+.Contact-button{
+  margin:2em auto;
+  margin-bottom:10em;
+  max-width: 2em;
+}
+
+
+.Contact-totop{
+  position: relative;
+  right:-40%;
+  bottom:5em;
+  width: 50px;
+
+}
+
+@media (max-width: 450px) {
+  .Contact-link{
+      font-size: .75em;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .Contact-link{
+      display: none;
+  }
+}

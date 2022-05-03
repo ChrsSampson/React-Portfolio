@@ -1,4 +1,4 @@
-import './Project.css'
+// import './Project.css'
 import { LinkOut, GithubFill } from 'akar-icons';
 
 function Project (props) {

@@ -1,11 +1,11 @@
-import './Projects.css'
+// import './Projects.css'
 import Project from '../project/Project'
 
 
 function Projects (props) {
-    
+
     const ProProjects = props.data.ProProjects.map((project, i) => {
-        
+
         const tags = project.tags.map((tag) => {
             return <span className="Project-tag">{tag}</span>
         })
@@ -13,7 +13,7 @@ function Projects (props) {
         return (
             <Project key={i + 30} data={project} tags={tags}/>
         )
-            
+
     });
 
     const Prototypes = props.data.ProtoProjects.map((prototype, i) => {
@@ -31,7 +31,7 @@ function Projects (props) {
         <article className="Projects" id="Projects">
             <h2 className="section-title">Projects</h2>
             <div className="Project-Container">
-                {ProProjects} 
+                {ProProjects}
             </div>
             <h1 className="section-title">Workbench Projects</h1>
             <div className="Project-Container">

@@ -1,4 +1,4 @@
-import './Skill.css'
+// import './Skill.css'
 
 function Skill (props) {
     return (

@@ -1,4 +1,4 @@
-import './Contact.css'
+// import './Contact.css'
 import {ArrowUp} from 'akar-icons'
 import {Link} from 'react-scroll'
 

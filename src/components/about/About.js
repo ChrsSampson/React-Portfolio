@@ -19,9 +19,9 @@ function About (props) {
                     {props.data.bio}
                 </p>
                 <div className="About-footer">
-                    <a href='/files/Resume.pdf' download className="button-link">Resume</a>
+                    <a href='/files/Chris_Sampson_Resume.pdf' download className="button-link">Resume</a>
                     <a href="https://github.com/ChrsSampson" className="link"><GithubFill className="icon" size={35} /></a>
-                    <a href="https://www.linkedin.com/in/chris-s-558341202/" className="link"><LinkedinBoxFill strokeWidth={2} size={35} /></a>
+                    <a href="https://www.linkedin.com/in/sampson-chris/" className="link"><LinkedinBoxFill strokeWidth={2} size={35} /></a>
                 </div>
             </article>
         </section>

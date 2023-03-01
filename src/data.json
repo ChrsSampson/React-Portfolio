@@ -21,12 +21,12 @@
             },
             {
                 "title":"PingPlotter MultiViewer",
-                "client":"Digitell Inc.",
-                "link": "http://multiviewer.herokuapp.com/",
-                "gitlink": "https://github.com/ChrsSampson/Express-Multiview-Server",
+                "client":"BroadcastMed",
+                "link": "https:ppmv.broadcastmed.com/",
+                "gitlink": "https://github.com/ChrsSampson/BroadcastMed-MV",
                 "image": "/img/multiviewer.png",
                 "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
-                "tags":["Express","MongoDB","Authentication"]
+                "tags":["Express","MongoDB","SSPR", "Next.js", "Typescript"]
             },
             {
                 "title":"SelfStorageCompanies.org",
@@ -152,16 +152,20 @@
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
         },
         {
-            "name": "MYSQL",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            "name": "PostgresSQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
         },
         {
-            "name": "Docker",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+            "name": "Typescript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
         },
         {
             "name": "Node JS",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        },
+        {
+            "name": "Next JS",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
         },
         {
             "name": "Handlebars",

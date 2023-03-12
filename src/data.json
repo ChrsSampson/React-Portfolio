@@ -2,6 +2,24 @@
     "Projects":{
         "ProProjects" : [
             {
+                "title":"Note Monstr",
+                "client":"Note Monstr",
+                "link": "https://NoteMonstr.com",
+                "gitlink": "https://github.com/ChrsSampson/Note-Monstr",
+                "image":"/img/note.png",
+                "desc": "A Freeform Note Taking App",
+                "tags":["React"]
+            },
+            {
+                "title":"PingPlotter MultiViewer",
+                "client":"BroadcastMed",
+                "link": "https:ppmv.broadcastmed.com/",
+                "gitlink": "https://github.com/ChrsSampson/BroadcastMed-MV",
+                "image": "/img/multiviewer.png",
+                "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
+                "tags":["Express","MongoDB","SSPR", "Next.js", "Typescript"]
+            },
+            {
                 "title":"Calentodo Authentication Service",
                 "client":"HackReactor",
                 "link": "",
@@ -18,24 +36,6 @@
                 "image":"/img/cemny.png",
                 "desc": "A static webpage rendered server side featuring several Javascript Libraries.",
                 "tags":["Express","EJS","BootStrap 5"]
-            },
-            {
-                "title":"PingPlotter MultiViewer",
-                "client":"BroadcastMed",
-                "link": "https:ppmv.broadcastmed.com/",
-                "gitlink": "https://github.com/ChrsSampson/BroadcastMed-MV",
-                "image": "/img/multiviewer.png",
-                "desc": "An internal tool used to keep track of network health of large quantities of computers simultaneously",
-                "tags":["Express","MongoDB","SSPR", "Next.js", "Typescript"]
-            },
-            {
-                "title":"SelfStorageCompanies.org",
-                "client":"Esteem Managment",
-                "link": "https://selfstoragecompanies.org",
-                "gitlink": "",
-                "image": "/img/storage.png",
-                "desc": "A site designed to combine 3 existing and outdated sites into one.",
-                "tags": ["WIX"]
             },
             {
                 "title":"JodyVankeuren.com",
@@ -112,7 +112,7 @@
             "name" : "Chris Sampson",
             "title": "Full Stack Developer",
             "tagline": "Design. Develop. Deploy",
-            "bio": "Here's a little about me, I have recently completed Hackreactor Software Engineering Immersive and am currently working as a Software Engineering Resident. I also have a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer."
+            "bio": "Here's a little about me, I am currently working as a Software Engineering Resident. I also have a background in Systems Administration and Virtualization. I am both driven and self-motivated and I am always trying new and experimental technologies and methods. I am my worst critic so I am constantly trying to better myself as a developer."
         },
     "Skills" : [
         {

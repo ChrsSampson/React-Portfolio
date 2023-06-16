@@ -8,7 +8,16 @@
                 "gitlink": "https://github.com/ChrsSampson/Note-Monstr",
                 "image":"/img/note.png",
                 "desc": "A Freeform Note Taking App",
-                "tags":["React"]
+                "tags":["React", "Emotion", "MUI"]
+            },
+            {
+                "title":"Wedding RSVP",
+                "client":"Chris & Jody Sampson",
+                "link": "https://chris&jody2023.com",
+                "gitlink": "https://github.com/ChrsSampson/WeddingRSVP",
+                "image":"/img/wedding.png",
+                "desc": "A RSVP System and Information Website",
+                "tags":["Next.js", "MongoDB", "React", "SASS", "AWS", "Nginx"]
             },
             {
                 "title":"PingPlotter MultiViewer",
@@ -45,15 +54,6 @@
                 "image": "/img/art.png",
                 "desc": "A simple art gallery showcasing a few pieces.",
                 "tags": ["Baguette Box", "Responsive", "Vanilla JS"]
-            },
-            {
-                "title":"StuckNode.com",
-                "client": "Chris Sampson",
-                "link": "http://stucknode.com",
-                "gitlink": "https://github.com/ChrsSampson/React-Portfolio",
-                "image": "/img/node.png",
-                "desc": "Behind the scenes of of this portfolio.",
-                "tags": ["React"]
             }
         ],
         "ProtoProjects" : [
